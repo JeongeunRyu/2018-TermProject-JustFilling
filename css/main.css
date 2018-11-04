@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:800');
+
+body{
+  text-align: center;
+  background-color: #DBC5DB;
+  overflow: hidden;
+  font-family: 'Nanum Myeongjo', serif;
+
+
+}
+#mainlogo{
+  position:fixed;
+  margin-top: 16%;
+  margin-left: 8%;
+}
+#mcr{
+  position:fixed;
+  margin-top: 15.5%;
+  margin-left: 36.5%;
+
+}
+#msg{
+
+  color: white;
+  position: fixed;
+  margin-top: 28%;
+  margin-left: 90%;
+  font-size: 0.6em;
+  letter-spacing: 1em;
+}
+
+#mainvideo {
+     position: fixed;
+     top: -15%;
+     left: 0px;
+     min-width : 100%;
+     z-index: -1;
+}
+
+::-moz-selection {
+    color: white;
+    background: #7A5C99;
+}
+
+::selection {
+    color: white;
+    background: #7A5C99;
+}
+
+.player audio::-webkit-media-controls-panel
+{
+  background-color: #875f99;
+  -webkit-filter: opacity(50%);filter: opacity(50%);
+}
