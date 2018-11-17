@@ -11,6 +11,10 @@ $content = requestValue("content");
 session_start();
 $nowBoard = sessionVar("nowBoard");
 
+$search=requestValue("search");
+$searchChoice=requestValue("searchChoice");
+
+
 
 if ($title && $writer && $content) {
     $dao = new BoardDao();
@@ -20,7 +24,7 @@ if ($title && $writer && $content) {
         $dao->updateMsg("jfboard2",$num,$title,$writer,$content);
     }
 
-    okGo("수정되었습니다", bdUrl($nowBoard.".php",0,$page));
+    okGo("수정되었습니다", bdUrl($nowBoard.".php",0,$page,$searchChoice,$search));
 } else {
     errorBack("모든 항목이 빈칸 없이 입력되어야 합니다.");
 }

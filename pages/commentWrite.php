@@ -7,7 +7,7 @@ $dao=new BoardDAO();
 
 $num = requestValue("num");
 $page = requestValue("page");
-$url= bdURL("view.php",$num,$page);
+$url= bdURL("view.php",$num,$page,0,0);
 $dao->insertCmt($num,$cwriter,$comment);
 session_start();
 

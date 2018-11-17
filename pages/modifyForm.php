@@ -31,8 +31,13 @@ $nowBoard = sessionVar("nowBoard");
 
 $num = requestValue("num");
 $page = requestValue("page");
-$dao = new BoardDao();
 
+$search=requestValue("search");
+$searchChoice=requestValue("searchChoice");
+
+
+$dao = new BoardDao();
+$msg=$dao->getMsg("jfboard",$num);
 if($nowBoard == "board1"){
     $msg=$dao->getMsg("jfboard",$num);
 }else if($nowBoard == "board2"){
@@ -63,7 +68,7 @@ if($uid != $member["id"]){
 ?>
 <div><h1>수정폼</h1></div>
 
-<form class="mx-auto" action="modify.php?num=<?= $msg["num"] ?>" method="post">
+<form class="mx-auto" action="<?= bdUrl("modify.php",0,$page,$searchChoice,$search)?>" method="post">
     <div>
         <table class="table col-8 mx-auto">
             <tr>

@@ -152,6 +152,45 @@ class BoardDAO {
         }
         return $txt;
     }
+
+    //게시판 제목으로 검색
+    public function searchTitleMsg($search,$start,$rows){
+        try{
+            $sql ="select * from jfboard where title LIKE '%$search%' order by num desc limit :start, :rows;";
+            $pstmt = $this->db->prepare($sql);
+
+            $pstmt->bindValue(":start",$start,PDO::PARAM_INT);
+            $pstmt->bindValue(":rows",$rows,PDO::PARAM_INT);
+            $pstmt->execute();
+
+            $msg = $pstmt->fetchAll(PDO::FETCH_ASSOC); //레코드를 연관배열로 담아 반환한다.
+
+        }catch(PDOException $e){
+            exit($e->getMessage());
+        }
+        return $msg;
+    }
+
+    //게시판 제목으로 검색 수 반환
+    public function getSearchTitleMsgs($search){
+        try{
+            $sql = "select count(*) from  jfboard where title LIKE '%$search%';";
+            $pstmt = $this->db->prepare($sql);
+            $pstmt->execute();
+
+            $numMsgs = $pstmt->fetchColumn();   // 결과 세트의 다음 행에 있는 단일 컬럼을 리턴합니다.
+        }catch(PDOException $e){
+            exit($e->getMessage());
+        }
+        return $numMsgs;
+    }
+
+
+
+
+
+
+
 }
 
 ?>

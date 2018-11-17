@@ -30,7 +30,7 @@ if ($title && $writer && $content) {
     }
 
 
-    okGo("정상적으로 입력되었습니다", bdUrl($nowBoard.".php",0,""));
+    okGo("정상적으로 입력되었습니다", bdUrl($nowBoard.".php",0,"",0,0));
 } else {
     errorBack("모든 항목이 빈칸 없이 입력되어야 합니다.");
 }

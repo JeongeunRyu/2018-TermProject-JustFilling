@@ -16,6 +16,8 @@ session_start_if_none();
 $nowBoard = sessionVar("nowBoard");
 $num = requestValue("num");
 $page = requestValue("page");
+$searchChoice=requestValue("searchChoice");
+$search=requestValue("search");
 
 $dao = new BoardDao();
 if($nowBoard == "board"){
@@ -38,8 +40,8 @@ if($nowBoard == "board"){
         function processDelete(num) {
             result = confirm("삭제하시겠습니까?");
             if(result) {
-                location.href="delete.php?num="+num;
-            }
+            location.href="delete.php?num="+num;
+        }
         }
     </script>
 
@@ -97,7 +99,7 @@ require_once ("nav.php");
 
 
 <span class="butt">
-<button onclick="location.href='<?= bdUrl($nowBoard.".php",0,$page) ?>'" type="button" class="btn btn-primary">목록보기</button>
+<button onclick="location.href='<?= bdUrl($nowBoard.".php",0,$page,$searchChoice,$search) ?>'" type="button" class="btn btn-primary">목록보기</button>
 <?php
 
 
@@ -106,7 +108,7 @@ $myArticle=isMyArticle($msg["writer"]); //로그인한 사용자의 아이디와
 
 if($loginFlag && $myArticle){?>
 
-    <button onclick="location.href='modifyForm.php?num=<?= $msg["num"]?> &page=<?= $page ?>'" class="btn btn-warning">수정</button>
+    <button onclick="location.href='<?=bdUrl("modifyForm.php",$msg["num"],$page,$searchChoice,$search) ?>'" class="btn btn-warning">수정</button>
     <button type="submit"
             onclick="processDelete(<?= $msg["num"] ?>)"
             class="btn btn-danger">삭제하기</button>

@@ -1,15 +1,5 @@
 <?php
-function bdURL($file,$num,$page){
-    $join="?";
-    if ($num) {
-        $file .= $join . "num=$num";
-        $join="&";
-    }
-    if($page)
-        $file .= $join."page=$page";
 
-    return $file;
-}
 
 //로그인, 로그아웃, 회원 가입, 회원 정보 수정 처리 후, 지정된 페이지로 돌아감
 define("MAIN_PAGE","home.php");
@@ -91,6 +81,27 @@ function isMyArticle($writer){
     }else{
         return false;
     }
+}
+
+
+function bdUrl($file, $num, $page, $searchChoice, $search){
+    $join = "?";
+
+    if($num){
+        $file .=$join. "num=$num";
+        $join = "&";
+    }
+
+    if($page){
+        $file .= $join . "page=$page";
+    }
+    if($searchChoice) {
+        $file .= '&' . "searchChoice=$searchChoice";
+    }
+    if($search) {
+        $file .= '&' . "search=$search";
+    }
+    return $file;
 }
 
  ?>
