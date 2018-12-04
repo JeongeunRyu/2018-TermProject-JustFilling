@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18c8e00c-82cb-4ecf-bdfb-cfb7e87ed237" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/BoardDao.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/BoardDao.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/board.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/board.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/commentView.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/commentView.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/commentWrite.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/commentWrite.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/modify.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modify.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/modifyForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modifyForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tools.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tools.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/upload/20181018253_editor_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/upload/20181040183_editor_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/upload/_editor_image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/write.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/htmlHead.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/htmlHead.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,31 +15,32 @@
     <session id="-1268126951">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="php" value="34" />
+          <entry key="php" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PHP" value="34" />
+          <entry key="PHP" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.test" />
       <usages-collector id="statistics.php.new.class" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1206" />
+          <entry key="PHP" value="1207" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -59,7 +50,7 @@
       <usages-collector id="statistics.php.composer.actions" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="1206" />
+          <entry key="php" value="1207" />
         </counts>
       </usages-collector>
     </session>
@@ -67,28 +58,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/board.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="222" column="123" selection-start-line="222" selection-start-column="123" selection-end-line="222" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+            <state relative-caret-position="1292">
+              <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/BoardDao.php">
+        <entry file="file://$PROJECT_DIR$/pages/home.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/htmlHead.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3154">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
+            <state relative-caret-position="137">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -171,6 +158,7 @@
         <option value="$PROJECT_DIR$/pages/modify.php" />
         <option value="$PROJECT_DIR$/pages/modifyForm.php" />
         <option value="$PROJECT_DIR$/pages/board.php" />
+        <option value="$PROJECT_DIR$/pages/htmlHead.php" />
       </list>
     </option>
   </component>
@@ -193,7 +181,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,6 +197,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,17 +235,19 @@
       <workItem from="1541998702016" duration="309000" />
       <workItem from="1542002878431" duration="646000" />
       <workItem from="1542267080229" duration="1692000" />
+      <workItem from="1542887583555" duration="2514000" />
+      <workItem from="1542974363204" duration="643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14396000" />
+    <option name="totallyTimeSpent" value="17553000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +260,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,14 +336,6 @@
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/htmlHead.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/info.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -412,12 +394,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/board.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4218">
+          <caret line="222" column="123" selection-start-line="222" selection-start-column="123" selection-end-line="222" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/BoardDao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3154">
           <caret line="166" selection-start-line="166" selection-end-line="166" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="68" column="35" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/modifyForm.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,17 +459,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/board.php">
+    <entry file="file://$PROJECT_DIR$/pages/htmlHead.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="222" column="123" selection-start-line="222" selection-start-column="123" selection-end-line="222" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
+        <state relative-caret-position="137">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
